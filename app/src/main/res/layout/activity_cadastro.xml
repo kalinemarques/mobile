@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                tools:context=".CadastroActivity">
+
+    <EditText
+            android:id="@+id/editTextLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="login"
+            android:inputType="textEmailAddress"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="319dp"
+            android:layout_marginBottom="20dp" android:layout_alignParentEnd="true"/>
+    <EditText
+            android:id="@+id/editTextSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="senha"
+            android:inputType="textPassword"
+            android:layout_below="@id/editTextLogin"
+            android:layout_marginTop="38dp"
+            android:layout_marginBottom="580dp" android:layout_alignParentEnd="true"/>
+    <Button
+            android:text="Cadastrar"
+            android:onClick="cadastrarNovoUsuario"
+            android:layout_width="211dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginEnd="99dp"
+            android:backgroundTint="#70DF69"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="119dp" android:layout_marginTop="542dp" android:layout_alignParentTop="true"/>
+    />
+    <ImageView
+            android:layout_width="117dp"
+            android:layout_height="180dp" app:srcCompat="@drawable/logo" android:id="@+id/imageView2"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="150dp"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="477dp" android:layout_marginTop="74dp"
+            android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+            android:layout_marginStart="144dp"/>
+
+</RelativeLayout>
